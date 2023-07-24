@@ -12,7 +12,7 @@ public class GuessTheNumberGame {
     
         System.out.println("Guess the number between 1 and 100. You have 7 attempts.");
     
-        while (count < 7 && !correct) {
+        while (count < 5 && !correct) {
           guess = input.nextInt();
           count++;
     
